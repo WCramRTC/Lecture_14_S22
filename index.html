@@ -9,8 +9,37 @@
     <link href="style/style.css" rel="stylesheet">
 </head>
 <body>
-    
-    <table>
+    <table id="outertable">
+        <form>
+        <!-- Table Row -->
+        <tr>
+            <td><label>First name:</label></td>
+            <td ><input class="input" value="FName"></td>
+            <td class="display" colspan="3" rowspan="6"></td>
+        </tr>
+        <tr>
+            <td><label>Last name:</label></td>
+            <td><input  class="input" value="LName"></td>
+        </tr>
+        <tr>
+            <td class="display"><label>Email:</label></td>
+            <td class="display"><input type="email" value="email"  class="input"></td>
+        </tr>
+        <tr>
+            <td><label>Password:</label></td>
+            <td><input name="pass" type="password" value="Pass" class="input"></td>
+        </tr>
+
+        <tr>         
+            <td><input id="btnDisplay" value="Display Fields" type="button"></td>
+        </tr>
+ 
+        </form>
+
+    </table>
+
+
+    <!-- <table>
         <tr>
             <th >Header 1</th>
             <th>Header 1</th>
@@ -36,7 +65,7 @@
             <td>Column 1</td>
             <td>Column 2</td>
         </tr>
-    </table>
+    </table> -->
         
     <!-- 
         table
